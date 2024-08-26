@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import LeftPanel from "./Components/LeftPanel";
+import RightPanel from "./Components/RightPanel";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="flex w-[100%]">
+        <div className="flex-col w-[20%]">
+          <LeftPanel />
+        </div>
+        <div className="flex w-[80%]">
+          <RightPanel />
+        </div>
+      </div>
+    </>
   );
 }
 
