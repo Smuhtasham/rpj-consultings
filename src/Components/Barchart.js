@@ -88,9 +88,9 @@ const Barchart = () => {
 
   return (
     <>
-      <div className=" flex flex-col mt-4 bg-white py-2 px-2 rounded-lg">
+      <div className=" flex flex-col mt-4 bg-white py-6 px-2 rounded-lg">
         <div className="w-[100%] px-2 flex justify-between">
-          <div className="text-xl">Total Volume B3 x Maturities</div>
+          <div className="text-2xl">Total Volume B3 x Maturities</div>
           <div className="flex border border-black py-1 px-6 rounded-3xl gap-2">
             <img src="filter.svg" alt="" />
             Filter

@@ -85,8 +85,8 @@ const CustomBarChart = ({ title }) => (
 );
 
 const TableComponent = () => (
-  <div className="p-6 flex flex-col bg-white mt-6 rounded-xl">
-    <div className="flex justify-between pb-8">
+  <div className="p-6 flex flex-col bg-white my-6 rounded-xl">
+    <div className="flex justify-between pb-4">
       <h2 className="text-3xl">Customize your dashboard</h2>
       <div className="flex border border-black py-1 px-4 rounded-3xl gap-2 items-center">
             <img src="filter.svg" alt="" />

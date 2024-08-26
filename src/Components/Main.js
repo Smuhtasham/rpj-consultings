@@ -10,7 +10,7 @@ const Main = () => {
                 Tickets
               </div>
             </div>
-            <div className="bg-white pt-4 text-xl px-4">
+            <div className="bg-white pt-4 text-2xl px-4">
               TOP 5 - Volume total por boleta
             </div>
             <div className="bg-white text-center grid grid-cols-4 gap-6 px-4 py-4 rounded-b-lg">

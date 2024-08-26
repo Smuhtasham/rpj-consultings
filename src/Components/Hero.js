@@ -4,8 +4,12 @@ const Hero = () => {
   return (
     <>
     <div className="flex pt-5 w-[100%] gap-4 justify-between">
-            <div className="w-[20%] text-[32px]">
-              B3 Registered Operations in D-1
+            <div className="w-[20%] ">
+             <div className='text-[32px]'> B3 Registered Operations in D-1</div>
+              <div className="flex border border-black justify-between w-[53%] py-1 px-2 rounded-3xl">
+              <div className='text-sm'>Filter by: D-1</div>
+            <img src="drop.svg" alt="" />
+          </div>
             </div>
             <div className="w-[75%]">
               <div className="grid grid-cols-4 gap-6">

@@ -13,7 +13,7 @@ const LeftPanel = () => {
             <div className="text-white text-sm">João da Silva</div>
           </div>
 
-          <div className="flex flex-col gap-[2700px] ">
+          <div className="flex flex-col gap-[2720px] ">
             <div className="flex flex-col text-[#D4D4D4] text-sm w-[80%] m-auto pt-8 gap-6">
               <div className="flex gap-2 text-white font-bold">
                 <img src="union.svg" alt="" /> Trading D1
