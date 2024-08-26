@@ -2,6 +2,8 @@ import React from "react";
 import Hero from "./Hero";
 import Main from "./Main";
 import Barchart from "./Barchart";
+import TableComponent from "./TableComponent";
+import TableComponentfirst from "./TableComponentfirst";
 
 const RightPanel = () => {
   return (
@@ -14,7 +16,10 @@ const RightPanel = () => {
           <Main/>
 
           <Barchart/>
-          
+
+          <TableComponentfirst/>
+
+          <TableComponent/>
         </div>
       </div>
     </>
